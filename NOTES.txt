@@ -1,0 +1,11 @@
+activate env file - source venv/bin/activate
+deactivate env file - deactivate
+
+lsof -i :8000 - check server ports in use
+Kill a port - example: 
+    kill -9 91342
+
+
+
+run fastapi from backend not app
+    fastapi dev app/main.py
